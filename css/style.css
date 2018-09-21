@@ -1,0 +1,105 @@
+body{
+  background: #ffffff url('../images/geometry2.png');
+  font-family: 'Open Sans', sans-serif;
+}
+ #canvas-section{
+    /* text-align: center; */
+    padding-left: 20%;
+}
+
+.main-section, #achivment, #life, #hearts{
+  display: flex;
+}
+
+#hearts{
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.game-settings{
+  padding-left: 60px;
+  padding-top: 50px;
+}
+
+#select-personaje{
+  background-color: #02b3e4;
+  color: #fff;
+  box-shadow: 8px 10px 20px 0 rgba(46,61,73,.15);
+  font-size: inherit;
+  padding: .5em;
+  padding-right: 2.5em;
+  border: 0;
+  margin: 0;
+  border-radius: 3px;
+  text-indent: 0.01px;
+  /*color:cadetblue */
+}
+
+#change-b{
+  background-color: #02b3e4;
+  color: #fff;
+  box-shadow: 8px 10px 20px 0 rgba(46,61,73,.15);
+  font-size: inherit;
+  padding: .5em;
+  padding-right: 2.5em;
+  border: 0;
+  margin: 0;
+  border-radius: 3px;
+  text-indent: 0.01px;
+  text-overflow: '';
+}
+
+/*  Congrats or Loos PopUp */
+#win-alert{
+  /* Display in the middle */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+
+  width: 270px;
+  height: 200px;
+  border: 1px solid;
+  box-shadow: 12px 15px 20px 0 rgba(46, 61, 73, 0.5);
+  background: linear-gradient(160deg, #02ccba 0%, #aa7ecd 100%);
+  border-radius: 10px;
+  position: absolute;
+  background: #ffffff url('../images/geometry2.png');
+}
+#score-congrats-box{
+  margin-left: 15px;
+  border:none;
+  font-family: 'Coda', cursive;
+}
+#new-game{
+  background-color: #02ccba;
+  font-family: 'Coda', cursive;
+  font-weight:bold;
+  border-radius: 4px;
+  border: 1px;
+  margin: 15px;
+  width:40%;
+  height: 25px;
+}
+
+#message{
+  text-align: center;
+}
+.score-panel {
+    text-align: left;
+    width: 345px;
+    margin-bottom: 10px;
+}
+
+.score-panel .stars {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    margin: 0 5px 0 0;
+}
+
+.score-panel .stars li {
+    list-style: none;
+    display: inline-block;
+}
