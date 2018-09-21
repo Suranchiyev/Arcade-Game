@@ -1,4 +1,5 @@
-### Frontend-nanodegree-arcade-game
+### Arcade-Game
+<hr>
 
 
 #### Description
@@ -16,4 +17,4 @@
   1. Download project as zip directory 
   2. Unzip it in your local machine 
   3. Open index.html file with any browser
-  4. Or you can fork this repositry and clone it https://help.github.com/articles/fork-a-repo/
+  4. Or you can fork this repositry and clone it. See instructions here https://help.github.com/articles/fork-a-repo/
